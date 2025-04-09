@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: network-monitor-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/app
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@db:5432/network_monitor
+    depends_on:
+      - db
+    restart: unless-stopped
+    # Need network_mode: host to capture packets from host network
+    # Note: This only works on Linux hosts, not on Windows/Mac
+    # network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+
+  db:
+    image: postgres:14
+    container_name: network-monitor-db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=network_monitor
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  redis:
+    image: redis:7
+    container_name: network-monitor-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
