@@ -1,0 +1,48 @@
+2025-04-07 13:07:10,418 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-07 13:07:10,795 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-07 13:07:10,795 - __main__ - INFO - Installing dependencies...
+2025-04-07 13:07:11,792 - __main__ - ERROR - Failed to install dependencies: Command '['C:\\Users\\mur4t\\Desktop\\network anomaly monitor and detection\\.venv\\Scripts\\python.exe', '-m', 'pip', 'install', '-r', 'requirements.txt']' returned non-zero exit status 1.
+2025-04-07 13:07:11,792 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-07 13:07:11,794 - __main__ - INFO - Database file ./network_monitor.db does not exist, it will be created on startup
+2025-04-07 13:07:11,794 - __main__ - INFO - Starting backend server...
+2025-04-07 13:07:11,798 - __main__ - ERROR - Failed to import app: No module named 'backend'
+2025-04-07 13:07:11,798 - __main__ - INFO - Trying to run with module name instead...
+2025-04-07 14:57:40,727 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-07 14:57:41,099 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-07 14:57:41,100 - __main__ - INFO - Installing dependencies...
+2025-04-07 14:57:42,019 - __main__ - ERROR - Failed to install dependencies: Command '['C:\\Users\\mur4t\\Desktop\\network anomaly monitor and detection\\.venv\\Scripts\\python.exe', '-m', 'pip', 'install', '-r', 'requirements.txt']' returned non-zero exit status 1.
+2025-04-07 14:57:42,019 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-07 14:57:42,020 - __main__ - INFO - Database file ./network_monitor.db does not exist, it will be created on startup
+2025-04-07 14:57:42,020 - __main__ - INFO - Starting backend server...
+2025-04-07 14:57:42,094 - database.db_connector - INFO - SQLAlchemy successfully imported
+2025-04-07 14:57:42,098 - database.db_connector - INFO - Async SQLAlchemy components successfully imported
+2025-04-07 14:57:42,104 - database.db_connector - INFO - Created database engine for sqlite:///./network_monitor.db
+2025-04-07 14:57:42,105 - database.db_connector - INFO - Created async database engine for sqlite+aiosqlite:///./network_monitor.db
+2025-04-07 14:57:42,343 - collectors.packet_collector - INFO - Scapy successfully imported
+2025-04-07 14:57:42,407 - __main__ - INFO - Starting server on 0.0.0.0:8000 (debug: True)
+2025-04-08 14:59:45,878 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-08 14:59:46,248 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-08 14:59:46,248 - __main__ - INFO - Installing dependencies...
+2025-04-08 14:59:47,101 - __main__ - ERROR - Failed to install dependencies: Command '['C:\\Users\\mur4t\\Desktop\\network anomaly monitor and detection\\backend\\venv\\Scripts\\python.exe', '-m', 'pip', 'install', '-r', 'requirements.txt']' returned non-zero exit status 1.
+2025-04-08 14:59:47,101 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-08 14:59:47,102 - __main__ - INFO - Database file ./network_monitor.db exists
+2025-04-08 14:59:47,102 - __main__ - INFO - Starting backend server...
+2025-04-08 14:59:47,144 - database.db_connector - INFO - SQLAlchemy successfully imported
+2025-04-08 14:59:47,147 - database.db_connector - INFO - Async SQLAlchemy components successfully imported
+2025-04-08 14:59:47,152 - database.db_connector - INFO - Created database engine for sqlite:///./network_monitor.db
+2025-04-08 14:59:47,152 - database.db_connector - INFO - Created async database engine for sqlite+aiosqlite:///./network_monitor.db
+2025-04-08 14:59:47,350 - collectors.packet_collector - INFO - Scapy successfully imported
+2025-04-08 14:59:47,407 - __main__ - INFO - Starting server on 0.0.0.0:8000 (debug: True)
+2025-04-08 19:08:44,137 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-08 19:08:44,489 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-08 19:08:44,489 - __main__ - INFO - Installing dependencies...
+2025-04-08 19:08:45,341 - __main__ - ERROR - Failed to install dependencies: Command '['C:\\Users\\mur4t\\Desktop\\network anomaly monitor and detection\\backend\\venv\\Scripts\\python.exe', '-m', 'pip', 'install', '-r', 'requirements.txt']' returned non-zero exit status 1.
+2025-04-08 19:08:45,342 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-08 19:08:45,343 - __main__ - INFO - Database file ./network_monitor.db exists
+2025-04-08 19:08:45,343 - __main__ - INFO - Starting backend server...
+2025-04-08 19:08:45,390 - database.db_connector - INFO - SQLAlchemy successfully imported
+2025-04-08 19:08:45,393 - database.db_connector - INFO - Async SQLAlchemy components successfully imported
+2025-04-08 19:08:45,398 - database.db_connector - INFO - Created database engine for sqlite:///./network_monitor.db
+2025-04-08 19:08:45,399 - database.db_connector - INFO - Created async database engine for sqlite+aiosqlite:///./network_monitor.db
+2025-04-08 19:08:45,605 - collectors.packet_collector - INFO - Scapy successfully imported
+2025-04-08 19:08:45,664 - __main__ - INFO - Starting server on 0.0.0.0:8000 (debug: True)

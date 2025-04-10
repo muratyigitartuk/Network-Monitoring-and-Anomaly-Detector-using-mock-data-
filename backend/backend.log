@@ -1,0 +1,28 @@
+2025-04-07 15:00:01,870 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-07 15:00:02,272 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-07 15:00:02,272 - __main__ - INFO - Installing dependencies...
+2025-04-07 15:00:03,285 - __main__ - INFO - Dependencies installed successfully
+2025-04-07 15:00:03,286 - __main__ - WARNING - Some dependencies could not be installed: python-jose
+2025-04-07 15:00:03,286 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-07 15:00:03,287 - __main__ - INFO - Database file ./network_monitor.db exists
+2025-04-07 15:00:03,287 - __main__ - INFO - Starting backend server...
+2025-04-07 15:00:03,336 - database.db_connector - INFO - SQLAlchemy successfully imported
+2025-04-07 15:00:03,345 - database.db_connector - INFO - Async SQLAlchemy components successfully imported
+2025-04-07 15:00:03,351 - database.db_connector - INFO - Created database engine for sqlite:///./network_monitor.db
+2025-04-07 15:00:03,351 - database.db_connector - INFO - Created async database engine for sqlite+aiosqlite:///./network_monitor.db
+2025-04-07 15:00:03,557 - collectors.packet_collector - INFO - Scapy successfully imported
+2025-04-07 15:00:03,616 - __main__ - INFO - Starting server on 0.0.0.0:8000 (debug: True)
+2025-04-09 16:15:49,582 - __main__ - INFO - Starting Network Anomaly Detection backend
+2025-04-09 16:15:50,365 - __main__ - WARNING - Missing dependencies: python-jose
+2025-04-09 16:15:50,365 - __main__ - INFO - Installing dependencies...
+2025-04-09 16:15:51,877 - __main__ - INFO - Dependencies installed successfully
+2025-04-09 16:15:51,877 - __main__ - WARNING - Some dependencies could not be installed: python-jose
+2025-04-09 16:15:51,877 - __main__ - INFO - Continuing anyway, some features may not work
+2025-04-09 16:15:51,878 - __main__ - INFO - Database file ./network_monitor.db exists
+2025-04-09 16:15:51,879 - __main__ - INFO - Starting backend server...
+2025-04-09 16:15:51,942 - database.db_connector - INFO - SQLAlchemy successfully imported
+2025-04-09 16:15:51,949 - database.db_connector - INFO - Async SQLAlchemy components successfully imported
+2025-04-09 16:15:51,957 - database.db_connector - INFO - Created database engine for sqlite:///./network_monitor.db
+2025-04-09 16:15:51,958 - database.db_connector - INFO - Created async database engine for sqlite+aiosqlite:///./network_monitor.db
+2025-04-09 16:15:52,234 - collectors.packet_collector - INFO - Scapy successfully imported
+2025-04-09 16:15:52,325 - __main__ - INFO - Starting server on 0.0.0.0:8000 (debug: True)
