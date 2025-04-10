@@ -13,15 +13,26 @@ A comprehensive network monitoring and anomaly detection system that provides re
 
 ## 📸 Dashboard Screenshots
 
-> **Note:** Screenshots will be added soon. The dashboard includes the following views:
->
-> - Main Dashboard with dark and light mode options
-> - Network Topology visualization
-> - Dashboard customization panel
-> - Network health analysis
-> - Alerting system
-> - System overview
-> - Trend analysis and forecasting
+### Dashboard Overview
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Network Topology
+![Network Topology](screenshots/network-topology.png)
+
+### Dashboard Customization
+![Dashboard Customization](screenshots/dashboard-customization.png)
+
+### Network Health Analysis
+![Network Health Analysis](screenshots/network-health-analysis.png)
+
+### Alerting System
+![Alerting System](screenshots/alerting-system.png)
+
+### System Information
+![System Information](screenshots/system-information.png)
+
+### Trend Analysis & Forecasting
+![Trend Analysis](screenshots/trend-analysis.png)
 
 ## 🌟 Features
 
